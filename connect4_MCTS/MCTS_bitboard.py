@@ -1,5 +1,5 @@
 import copy
-from connect_4_MCTS.bitboard import Bitboard
+from connect4_MCTS.bitboard import Bitboard
 import random
 import time
 from math import *

@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>connect_4_MCTS package &mdash; connect4_MCTS 0.1 documentation</title>
+  <title>connect4_MCTS package &mdash; connect4_MCTS 0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -44,34 +44,34 @@
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="modules.html">connect4_MCTS</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">connect_4_MCTS package</a><ul>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">connect4_MCTS package</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#module-connect_4_MCTS.MCTS_bitboard">connect_4_MCTS.MCTS_bitboard module</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.MCTS_bitboard.MCTS"><code class="docutils literal notranslate"><span class="pre">MCTS</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.MCTS_bitboard.Node"><code class="docutils literal notranslate"><span class="pre">Node</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-connect4_MCTS.MCTS_bitboard">connect4_MCTS.MCTS_bitboard module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.MCTS_bitboard.MCTS"><code class="docutils literal notranslate"><span class="pre">MCTS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.MCTS_bitboard.Node"><code class="docutils literal notranslate"><span class="pre">Node</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-connect_4_MCTS.bitboard">connect_4_MCTS.bitboard module</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.bitboard.Bitboard"><code class="docutils literal notranslate"><span class="pre">Bitboard</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.bitboard.display_bits_in_grid"><code class="docutils literal notranslate"><span class="pre">display_bits_in_grid()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-connect4_MCTS.bitboard">connect4_MCTS.bitboard module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.bitboard.Bitboard"><code class="docutils literal notranslate"><span class="pre">Bitboard</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.bitboard.display_bits_in_grid"><code class="docutils literal notranslate"><span class="pre">display_bits_in_grid()</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-connect_4_MCTS.simulation">connect_4_MCTS.simulation module</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.simulation.play_match"><code class="docutils literal notranslate"><span class="pre">play_match()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.simulation.play_single_match"><code class="docutils literal notranslate"><span class="pre">play_single_match()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.simulation.show_match"><code class="docutils literal notranslate"><span class="pre">show_match()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.simulation.tournement"><code class="docutils literal notranslate"><span class="pre">tournement()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-connect4_MCTS.simulation">connect4_MCTS.simulation module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.simulation.play_match"><code class="docutils literal notranslate"><span class="pre">play_match()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.simulation.play_single_match"><code class="docutils literal notranslate"><span class="pre">play_single_match()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.simulation.show_match"><code class="docutils literal notranslate"><span class="pre">show_match()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.simulation.tournement"><code class="docutils literal notranslate"><span class="pre">tournement()</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-connect_4_MCTS">Module contents</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.Bitboard"><code class="docutils literal notranslate"><span class="pre">Bitboard</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.MCTS"><code class="docutils literal notranslate"><span class="pre">MCTS</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.Node"><code class="docutils literal notranslate"><span class="pre">Node</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.display_bits_in_grid"><code class="docutils literal notranslate"><span class="pre">display_bits_in_grid()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.play_match"><code class="docutils literal notranslate"><span class="pre">play_match()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.play_single_match"><code class="docutils literal notranslate"><span class="pre">play_single_match()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.show_match"><code class="docutils literal notranslate"><span class="pre">show_match()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connect_4_MCTS.tournement"><code class="docutils literal notranslate"><span class="pre">tournement()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-connect4_MCTS">Module contents</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.Bitboard"><code class="docutils literal notranslate"><span class="pre">Bitboard</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.MCTS"><code class="docutils literal notranslate"><span class="pre">MCTS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.Node"><code class="docutils literal notranslate"><span class="pre">Node</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.display_bits_in_grid"><code class="docutils literal notranslate"><span class="pre">display_bits_in_grid()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.play_match"><code class="docutils literal notranslate"><span class="pre">play_match()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.play_single_match"><code class="docutils literal notranslate"><span class="pre">play_single_match()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.show_match"><code class="docutils literal notranslate"><span class="pre">show_match()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connect4_MCTS.tournement"><code class="docutils literal notranslate"><span class="pre">tournement()</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -95,9 +95,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="modules.html">connect4_MCTS</a></li>
-      <li class="breadcrumb-item active">connect_4_MCTS package</li>
+      <li class="breadcrumb-item active">connect4_MCTS package</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/connect_4_MCTS.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/connect4_MCTS.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -105,16 +105,16 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="connect-4-mcts-package">
-<h1>connect_4_MCTS package<a class="headerlink" href="#connect-4-mcts-package" title="Link to this heading"></a></h1>
+  <section id="connect4-mcts-package">
+<h1>connect4_MCTS package<a class="headerlink" href="#connect4-mcts-package" title="Link to this heading"></a></h1>
 <section id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
 </section>
-<section id="module-connect_4_MCTS.MCTS_bitboard">
-<span id="connect-4-mcts-mcts-bitboard-module"></span><h2>connect_4_MCTS.MCTS_bitboard module<a class="headerlink" href="#module-connect_4_MCTS.MCTS_bitboard" title="Link to this heading"></a></h2>
+<section id="module-connect4_MCTS.MCTS_bitboard">
+<span id="connect4-mcts-mcts-bitboard-module"></span><h2>connect4_MCTS.MCTS_bitboard module<a class="headerlink" href="#module-connect4_MCTS.MCTS_bitboard" title="Link to this heading"></a></h2>
 <dl class="py class">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.MCTS_bitboard.</span></span><span class="sig-name descname"><span class="pre">MCTS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_iter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">selection_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'random'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'MCTS'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">iterations_per_simulation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_runtime</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cap_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'iter'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect4_MCTS.MCTS_bitboard.</span></span><span class="sig-name descname"><span class="pre">MCTS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_iter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">selection_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'random'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'MCTS'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">iterations_per_simulation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_runtime</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cap_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'iter'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Implements the Monte Carlo Tree Search algorithm.</p>
 <section id="attributes">
@@ -169,8 +169,8 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS.back_propagate">
-<span class="sig-name descname"><span class="pre">back_propagate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.back_propagate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS.back_propagate" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS.back_propagate">
+<span class="sig-name descname"><span class="pre">back_propagate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.back_propagate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS.back_propagate" title="Link to this definition"></a></dt>
 <dd><p>Propagates the simulation results up the tree, updating values and visit counts.</p>
 <section id="parameters">
 <h4>Parameters:<a class="headerlink" href="#parameters" title="Link to this heading"></a></h4>
@@ -184,8 +184,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS.best_move">
-<span class="sig-name descname"><span class="pre">best_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.best_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS.best_move" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS.best_move">
+<span class="sig-name descname"><span class="pre">best_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.best_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS.best_move" title="Link to this definition"></a></dt>
 <dd><p>Determines the best move by selecting the child node with the highest accumulated value.</p>
 <section id="returns">
 <h4>Returns:<a class="headerlink" href="#returns" title="Link to this heading"></a></h4>
@@ -197,8 +197,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS.expand">
-<span class="sig-name descname"><span class="pre">expand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.expand"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS.expand" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS.expand">
+<span class="sig-name descname"><span class="pre">expand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.expand"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS.expand" title="Link to this definition"></a></dt>
 <dd><p>Expands a node by generating all possible moves as its children.</p>
 <section id="id1">
 <h4>Parameters:<a class="headerlink" href="#id1" title="Link to this heading"></a></h4>
@@ -217,14 +217,14 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS.reset">
-<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS.reset" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS.reset" title="Link to this definition"></a></dt>
 <dd><p>Resets the MCTS instance to its initial state, clearing the tree and other attributes.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS.run_mcts">
-<span class="sig-name descname"><span class="pre">run_mcts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.run_mcts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS.run_mcts" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS.run_mcts">
+<span class="sig-name descname"><span class="pre">run_mcts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.run_mcts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS.run_mcts" title="Link to this definition"></a></dt>
 <dd><p>Executes the Monte Carlo Tree Search algorithm to determine the best move.</p>
 <section id="id3">
 <h4>Parameters:<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
@@ -243,8 +243,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS.run_simulation">
-<span class="sig-name descname"><span class="pre">run_simulation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.run_simulation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS.run_simulation" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS.run_simulation">
+<span class="sig-name descname"><span class="pre">run_simulation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.run_simulation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS.run_simulation" title="Link to this definition"></a></dt>
 <dd><p>Runs a simulated game from the current state to estimate the value of a node.</p>
 <section id="id5">
 <h4>Returns:<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
@@ -256,8 +256,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.MCTS.select">
-<span class="sig-name descname"><span class="pre">select</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.select"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.MCTS.select" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.MCTS.select">
+<span class="sig-name descname"><span class="pre">select</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.select"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.MCTS.select" title="Link to this definition"></a></dt>
 <dd><p>Traverses the tree to select a promising node based on the chosen selection strategy.</p>
 <section id="id6">
 <h4>Returns:<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
@@ -272,8 +272,8 @@
 </dd></dl>
 
 <dl class="py class">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.Node">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.MCTS_bitboard.</span></span><span class="sig-name descname"><span class="pre">Node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">move</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#Node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.Node" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.Node">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect4_MCTS.MCTS_bitboard.</span></span><span class="sig-name descname"><span class="pre">Node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">move</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#Node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.Node" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Represents a node in the Monte Carlo Tree Search.</p>
 <section id="id7">
@@ -295,8 +295,8 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS_bitboard.Node.set_uct">
-<span class="sig-name descname"><span class="pre">set_uct</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#Node.set_uct"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS_bitboard.Node.set_uct" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS_bitboard.Node.set_uct">
+<span class="sig-name descname"><span class="pre">set_uct</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#Node.set_uct"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS_bitboard.Node.set_uct" title="Link to this definition"></a></dt>
 <dd><p>Calculates and updates the UCT value of the node.</p>
 </dd></dl>
 
@@ -304,11 +304,11 @@
 </dd></dl>
 
 </section>
-<section id="module-connect_4_MCTS.bitboard">
-<span id="connect-4-mcts-bitboard-module"></span><h2>connect_4_MCTS.bitboard module<a class="headerlink" href="#module-connect_4_MCTS.bitboard" title="Link to this heading"></a></h2>
+<section id="module-connect4_MCTS.bitboard">
+<span id="connect4-mcts-bitboard-module"></span><h2>connect4_MCTS.bitboard module<a class="headerlink" href="#module-connect4_MCTS.bitboard" title="Link to this heading"></a></h2>
 <dl class="py class">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.bitboard.</span></span><span class="sig-name descname"><span class="pre">Bitboard</span></span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect4_MCTS.bitboard.</span></span><span class="sig-name descname"><span class="pre">Bitboard</span></span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Represents a Connect Four game state using bitboards for efficient computation.</p>
 <section id="id8">
@@ -326,8 +326,8 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.get_moves">
-<span class="sig-name descname"><span class="pre">get_moves</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.get_moves"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.get_moves" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.get_moves">
+<span class="sig-name descname"><span class="pre">get_moves</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.get_moves"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.get_moves" title="Link to this definition"></a></dt>
 <dd><p>Retrieves a list of valid column indices for the next move.</p>
 <section id="id9">
 <h4>Returns:<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
@@ -339,8 +339,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.get_state">
-<span class="sig-name descname"><span class="pre">get_state</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.get_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.get_state" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.get_state">
+<span class="sig-name descname"><span class="pre">get_state</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.get_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.get_state" title="Link to this definition"></a></dt>
 <dd><p>Retrieves the current game state.</p>
 <section id="id10">
 <h4>Returns:<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
@@ -352,8 +352,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.get_winner">
-<span class="sig-name descname"><span class="pre">get_winner</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.get_winner"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.get_winner" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.get_winner">
+<span class="sig-name descname"><span class="pre">get_winner</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.get_winner"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.get_winner" title="Link to this definition"></a></dt>
 <dd><p>Checks if there is a winner or a draw in the game.</p>
 <section id="id11">
 <h4>Returns:<a class="headerlink" href="#id11" title="Link to this heading"></a></h4>
@@ -365,8 +365,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.play">
-<span class="sig-name descname"><span class="pre">play</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.play"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.play" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.play">
+<span class="sig-name descname"><span class="pre">play</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.play"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.play" title="Link to this definition"></a></dt>
 <dd><p>Plays a disc in the specified column for the current player.</p>
 <section id="id12">
 <h4>Parameters:<a class="headerlink" href="#id12" title="Link to this heading"></a></h4>
@@ -378,14 +378,14 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.reset">
-<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.reset" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.reset" title="Link to this definition"></a></dt>
 <dd><p>Resets the game state to its initial configuration.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.set_state">
-<span class="sig-name descname"><span class="pre">set_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.set_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.set_state" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.set_state">
+<span class="sig-name descname"><span class="pre">set_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.set_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.set_state" title="Link to this definition"></a></dt>
 <dd><p>Sets the current game state to a given state.</p>
 <section id="id13">
 <h4>Parameters:<a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
@@ -397,8 +397,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.show">
-<span class="sig-name descname"><span class="pre">show</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.show"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.show" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.show">
+<span class="sig-name descname"><span class="pre">show</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.show"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.show" title="Link to this definition"></a></dt>
 <dd><p>Displays the current game state on a Pygame surface.</p>
 <section id="id14">
 <h4>Parameters:<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
@@ -414,8 +414,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.Bitboard.user_move">
-<span class="sig-name descname"><span class="pre">user_move</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.user_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.Bitboard.user_move" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.Bitboard.user_move">
+<span class="sig-name descname"><span class="pre">user_move</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.user_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.Bitboard.user_move" title="Link to this definition"></a></dt>
 <dd><p>Handles the user’s move by waiting for mouse input and updating the game state.</p>
 <section id="id15">
 <h4>Parameters:<a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
@@ -434,8 +434,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.bitboard.display_bits_in_grid">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.bitboard.</span></span><span class="sig-name descname"><span class="pre">display_bits_in_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#display_bits_in_grid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.bitboard.display_bits_in_grid" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.bitboard.display_bits_in_grid">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.bitboard.</span></span><span class="sig-name descname"><span class="pre">display_bits_in_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#display_bits_in_grid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.bitboard.display_bits_in_grid" title="Link to this definition"></a></dt>
 <dd><p>Display a binary representation of a number as a 7x7 grid.</p>
 <section id="id16">
 <h3>Parameters:<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
@@ -447,11 +447,11 @@
 </dd></dl>
 
 </section>
-<section id="module-connect_4_MCTS.simulation">
-<span id="connect-4-mcts-simulation-module"></span><h2>connect_4_MCTS.simulation module<a class="headerlink" href="#module-connect_4_MCTS.simulation" title="Link to this heading"></a></h2>
+<section id="module-connect4_MCTS.simulation">
+<span id="connect4-mcts-simulation-module"></span><h2>connect4_MCTS.simulation module<a class="headerlink" href="#module-connect4_MCTS.simulation" title="Link to this heading"></a></h2>
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.simulation.play_match">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">play_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#play_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.simulation.play_match" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.simulation.play_match">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">play_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#play_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.simulation.play_match" title="Link to this definition"></a></dt>
 <dd><p>Plays a single match where player1 starts and returns the winner.</p>
 <section id="id17">
 <h3>Parameters:<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
@@ -477,8 +477,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.simulation.play_single_match">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">play_single_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#play_single_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.simulation.play_single_match" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.simulation.play_single_match">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">play_single_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#play_single_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.simulation.play_single_match" title="Link to this definition"></a></dt>
 <dd><p>Similar to play_match, but the input parameters are dictionaries specifying player configurations.</p>
 <section id="id19">
 <h3>Parameters:<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
@@ -522,8 +522,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.simulation.show_match">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">show_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#show_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.simulation.show_match" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.simulation.show_match">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">show_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#show_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.simulation.show_match" title="Link to this definition"></a></dt>
 <dd><p>Plays and displays a single match where player1 starts.</p>
 <section id="id21">
 <h3>Parameters:<a class="headerlink" href="#id21" title="Link to this heading"></a></h3>
@@ -537,8 +537,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.simulation.tournement">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">tournement</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">players</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#tournement"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.simulation.tournement" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.simulation.tournement">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.simulation.</span></span><span class="sig-name descname"><span class="pre">tournement</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">players</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#tournement"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.simulation.tournement" title="Link to this definition"></a></dt>
 <dd><p>Runs a tournament between multiple players, simulating 10 matches in parallel, and saves the results.</p>
 <section id="id22">
 <h3>Parameters:<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
@@ -596,11 +596,11 @@
 </dd></dl>
 
 </section>
-<section id="module-connect_4_MCTS">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-connect_4_MCTS" title="Link to this heading"></a></h2>
+<section id="module-connect4_MCTS">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-connect4_MCTS" title="Link to this heading"></a></h2>
 <dl class="py class">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">Bitboard</span></span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">Bitboard</span></span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Represents a Connect Four game state using bitboards for efficient computation.</p>
 <section id="id24">
@@ -618,8 +618,8 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.get_moves">
-<span class="sig-name descname"><span class="pre">get_moves</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.get_moves"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.get_moves" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.get_moves">
+<span class="sig-name descname"><span class="pre">get_moves</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.get_moves"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.get_moves" title="Link to this definition"></a></dt>
 <dd><p>Retrieves a list of valid column indices for the next move.</p>
 <section id="id25">
 <h4>Returns:<a class="headerlink" href="#id25" title="Link to this heading"></a></h4>
@@ -631,8 +631,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.get_state">
-<span class="sig-name descname"><span class="pre">get_state</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.get_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.get_state" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.get_state">
+<span class="sig-name descname"><span class="pre">get_state</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.get_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.get_state" title="Link to this definition"></a></dt>
 <dd><p>Retrieves the current game state.</p>
 <section id="id26">
 <h4>Returns:<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
@@ -644,8 +644,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.get_winner">
-<span class="sig-name descname"><span class="pre">get_winner</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.get_winner"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.get_winner" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.get_winner">
+<span class="sig-name descname"><span class="pre">get_winner</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.get_winner"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.get_winner" title="Link to this definition"></a></dt>
 <dd><p>Checks if there is a winner or a draw in the game.</p>
 <section id="id27">
 <h4>Returns:<a class="headerlink" href="#id27" title="Link to this heading"></a></h4>
@@ -657,8 +657,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.play">
-<span class="sig-name descname"><span class="pre">play</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.play"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.play" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.play">
+<span class="sig-name descname"><span class="pre">play</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.play"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.play" title="Link to this definition"></a></dt>
 <dd><p>Plays a disc in the specified column for the current player.</p>
 <section id="id28">
 <h4>Parameters:<a class="headerlink" href="#id28" title="Link to this heading"></a></h4>
@@ -670,14 +670,14 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.reset">
-<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.reset" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.reset" title="Link to this definition"></a></dt>
 <dd><p>Resets the game state to its initial configuration.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.set_state">
-<span class="sig-name descname"><span class="pre">set_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.set_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.set_state" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.set_state">
+<span class="sig-name descname"><span class="pre">set_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.set_state"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.set_state" title="Link to this definition"></a></dt>
 <dd><p>Sets the current game state to a given state.</p>
 <section id="id29">
 <h4>Parameters:<a class="headerlink" href="#id29" title="Link to this heading"></a></h4>
@@ -689,8 +689,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.show">
-<span class="sig-name descname"><span class="pre">show</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.show"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.show" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.show">
+<span class="sig-name descname"><span class="pre">show</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.show"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.show" title="Link to this definition"></a></dt>
 <dd><p>Displays the current game state on a Pygame surface.</p>
 <section id="id30">
 <h4>Parameters:<a class="headerlink" href="#id30" title="Link to this heading"></a></h4>
@@ -706,8 +706,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Bitboard.user_move">
-<span class="sig-name descname"><span class="pre">user_move</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#Bitboard.user_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Bitboard.user_move" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Bitboard.user_move">
+<span class="sig-name descname"><span class="pre">user_move</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#Bitboard.user_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Bitboard.user_move" title="Link to this definition"></a></dt>
 <dd><p>Handles the user’s move by waiting for mouse input and updating the game state.</p>
 <section id="id31">
 <h4>Parameters:<a class="headerlink" href="#id31" title="Link to this heading"></a></h4>
@@ -726,8 +726,8 @@
 </dd></dl>
 
 <dl class="py class">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">MCTS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_iter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">selection_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'random'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'MCTS'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">iterations_per_simulation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_runtime</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cap_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'iter'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">MCTS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_iter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">selection_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'random'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'MCTS'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">iterations_per_simulation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_runtime</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cap_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'iter'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Implements the Monte Carlo Tree Search algorithm.</p>
 <section id="id32">
@@ -782,8 +782,8 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS.back_propagate">
-<span class="sig-name descname"><span class="pre">back_propagate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.back_propagate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS.back_propagate" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS.back_propagate">
+<span class="sig-name descname"><span class="pre">back_propagate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.back_propagate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS.back_propagate" title="Link to this definition"></a></dt>
 <dd><p>Propagates the simulation results up the tree, updating values and visit counts.</p>
 <section id="id34">
 <h4>Parameters:<a class="headerlink" href="#id34" title="Link to this heading"></a></h4>
@@ -797,8 +797,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS.best_move">
-<span class="sig-name descname"><span class="pre">best_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.best_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS.best_move" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS.best_move">
+<span class="sig-name descname"><span class="pre">best_move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.best_move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS.best_move" title="Link to this definition"></a></dt>
 <dd><p>Determines the best move by selecting the child node with the highest accumulated value.</p>
 <section id="id35">
 <h4>Returns:<a class="headerlink" href="#id35" title="Link to this heading"></a></h4>
@@ -810,8 +810,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS.expand">
-<span class="sig-name descname"><span class="pre">expand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.expand"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS.expand" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS.expand">
+<span class="sig-name descname"><span class="pre">expand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.expand"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS.expand" title="Link to this definition"></a></dt>
 <dd><p>Expands a node by generating all possible moves as its children.</p>
 <section id="id36">
 <h4>Parameters:<a class="headerlink" href="#id36" title="Link to this heading"></a></h4>
@@ -830,14 +830,14 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS.reset">
-<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS.reset" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS.reset" title="Link to this definition"></a></dt>
 <dd><p>Resets the MCTS instance to its initial state, clearing the tree and other attributes.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS.run_mcts">
-<span class="sig-name descname"><span class="pre">run_mcts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.run_mcts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS.run_mcts" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS.run_mcts">
+<span class="sig-name descname"><span class="pre">run_mcts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.run_mcts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS.run_mcts" title="Link to this definition"></a></dt>
 <dd><p>Executes the Monte Carlo Tree Search algorithm to determine the best move.</p>
 <section id="id38">
 <h4>Parameters:<a class="headerlink" href="#id38" title="Link to this heading"></a></h4>
@@ -856,8 +856,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS.run_simulation">
-<span class="sig-name descname"><span class="pre">run_simulation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.run_simulation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS.run_simulation" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS.run_simulation">
+<span class="sig-name descname"><span class="pre">run_simulation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.run_simulation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS.run_simulation" title="Link to this definition"></a></dt>
 <dd><p>Runs a simulated game from the current state to estimate the value of a node.</p>
 <section id="id40">
 <h4>Returns:<a class="headerlink" href="#id40" title="Link to this heading"></a></h4>
@@ -869,8 +869,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.MCTS.select">
-<span class="sig-name descname"><span class="pre">select</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#MCTS.select"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.MCTS.select" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.MCTS.select">
+<span class="sig-name descname"><span class="pre">select</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#MCTS.select"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.MCTS.select" title="Link to this definition"></a></dt>
 <dd><p>Traverses the tree to select a promising node based on the chosen selection strategy.</p>
 <section id="id41">
 <h4>Returns:<a class="headerlink" href="#id41" title="Link to this heading"></a></h4>
@@ -885,8 +885,8 @@
 </dd></dl>
 
 <dl class="py class">
-<dt class="sig sig-object py" id="connect_4_MCTS.Node">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">Node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">move</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#Node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Node" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Node">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">Node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">move</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">C</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#Node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Node" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Represents a node in the Monte Carlo Tree Search.</p>
 <section id="id42">
@@ -908,8 +908,8 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt class="sig sig-object py" id="connect_4_MCTS.Node.set_uct">
-<span class="sig-name descname"><span class="pre">set_uct</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/MCTS_bitboard.html#Node.set_uct"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.Node.set_uct" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.Node.set_uct">
+<span class="sig-name descname"><span class="pre">set_uct</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/MCTS_bitboard.html#Node.set_uct"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.Node.set_uct" title="Link to this definition"></a></dt>
 <dd><p>Calculates and updates the UCT value of the node.</p>
 </dd></dl>
 
@@ -917,8 +917,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.display_bits_in_grid">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">display_bits_in_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/bitboard.html#display_bits_in_grid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.display_bits_in_grid" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.display_bits_in_grid">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">display_bits_in_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/bitboard.html#display_bits_in_grid"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.display_bits_in_grid" title="Link to this definition"></a></dt>
 <dd><p>Display a binary representation of a number as a 7x7 grid.</p>
 <section id="id43">
 <h3>Parameters:<a class="headerlink" href="#id43" title="Link to this heading"></a></h3>
@@ -930,8 +930,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.play_match">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">play_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#play_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.play_match" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.play_match">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">play_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#play_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.play_match" title="Link to this definition"></a></dt>
 <dd><p>Plays a single match where player1 starts and returns the winner.</p>
 <section id="id44">
 <h3>Parameters:<a class="headerlink" href="#id44" title="Link to this heading"></a></h3>
@@ -957,8 +957,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.play_single_match">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">play_single_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#play_single_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.play_single_match" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.play_single_match">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">play_single_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#play_single_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.play_single_match" title="Link to this definition"></a></dt>
 <dd><p>Similar to play_match, but the input parameters are dictionaries specifying player configurations.</p>
 <section id="id46">
 <h3>Parameters:<a class="headerlink" href="#id46" title="Link to this heading"></a></h3>
@@ -1002,8 +1002,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.show_match">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">show_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#show_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.show_match" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.show_match">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">show_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#show_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.show_match" title="Link to this definition"></a></dt>
 <dd><p>Plays and displays a single match where player1 starts.</p>
 <section id="id48">
 <h3>Parameters:<a class="headerlink" href="#id48" title="Link to this heading"></a></h3>
@@ -1017,8 +1017,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="connect_4_MCTS.tournement">
-<span class="sig-prename descclassname"><span class="pre">connect_4_MCTS.</span></span><span class="sig-name descname"><span class="pre">tournement</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">players</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect_4_MCTS/simulation.html#tournement"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect_4_MCTS.tournement" title="Link to this definition"></a></dt>
+<dt class="sig sig-object py" id="connect4_MCTS.tournement">
+<span class="sig-prename descclassname"><span class="pre">connect4_MCTS.</span></span><span class="sig-name descname"><span class="pre">tournement</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">players</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/connect4_MCTS/simulation.html#tournement"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#connect4_MCTS.tournement" title="Link to this definition"></a></dt>
 <dd><p>Runs a tournament between multiple players, simulating 10 matches in parallel, and saves the results.</p>
 <section id="id49">
 <h3>Parameters:<a class="headerlink" href="#id49" title="Link to this heading"></a></h3>

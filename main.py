@@ -1,4 +1,4 @@
-from connect_4_MCTS.simulation import *
+from connect4_MCTS.simulation import *
 
 
 if __name__ == '__main__':

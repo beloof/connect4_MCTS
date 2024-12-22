@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>connect_4_MCTS.bitboard &mdash; connect4_MCTS 0.1 documentation</title>
+  <title>connect4_MCTS.bitboard &mdash; connect4_MCTS 0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=92fd9be5" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
 
@@ -59,7 +59,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
-      <li class="breadcrumb-item active">connect_4_MCTS.bitboard</li>
+      <li class="breadcrumb-item active">connect4_MCTS.bitboard</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -68,7 +68,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <h1>Source code for connect_4_MCTS.bitboard</h1><div class="highlight"><pre>
+  <h1>Source code for connect4_MCTS.bitboard</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span> <span class="nn">pygame</span>
 <span class="kn">import</span> <span class="nn">random</span>
 <span class="kn">import</span> <span class="nn">copy</span>
@@ -80,7 +80,7 @@
 
 
 <div class="viewcode-block" id="Bitboard">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard">[docs]</a>
 <span class="k">class</span> <span class="nc">Bitboard</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Represents a Connect Four game state using bitboards for efficient computation.</span>
@@ -106,7 +106,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">winner</span> <span class="o">=</span> <span class="kc">None</span>
 
 <div class="viewcode-block" id="Bitboard.get_moves">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.get_moves">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.get_moves">[docs]</a>
     <span class="k">def</span> <span class="nf">get_moves</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Retrieves a list of valid column indices for the next move.</span>
@@ -124,7 +124,7 @@
 
 
 <div class="viewcode-block" id="Bitboard.play">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.play">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.play">[docs]</a>
     <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Plays a disc in the specified column for the current player.</span>
@@ -150,7 +150,7 @@
 
 
 <div class="viewcode-block" id="Bitboard.get_winner">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.get_winner">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.get_winner">[docs]</a>
     <span class="k">def</span> <span class="nf">get_winner</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Checks if there is a winner or a draw in the game.</span>
@@ -175,7 +175,7 @@
 
 
 <div class="viewcode-block" id="Bitboard.set_state">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.set_state">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.set_state">[docs]</a>
     <span class="k">def</span> <span class="nf">set_state</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">state</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Sets the current game state to a given state.</span>
@@ -192,7 +192,7 @@
 
 
 <div class="viewcode-block" id="Bitboard.get_state">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.get_state">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.get_state">[docs]</a>
     <span class="k">def</span> <span class="nf">get_state</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Retrieves the current game state.</span>
@@ -207,7 +207,7 @@
 
 
 <div class="viewcode-block" id="Bitboard.reset">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.reset">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.reset">[docs]</a>
     <span class="k">def</span> <span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Resets the game state to its initial configuration.</span>
@@ -219,7 +219,7 @@
 
 
 <div class="viewcode-block" id="Bitboard.show">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.show">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.show">[docs]</a>
     <span class="k">def</span> <span class="nf">show</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">surface</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Displays the current game state on a Pygame surface.</span>
@@ -245,7 +245,7 @@
     
                 
 <div class="viewcode-block" id="Bitboard.user_move">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.Bitboard.user_move">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.Bitboard.user_move">[docs]</a>
     <span class="k">def</span> <span class="nf">user_move</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">surface</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Handles the user&#39;s move by waiting for mouse input and updating the game state.</span>
@@ -281,7 +281,7 @@
 
 
 <div class="viewcode-block" id="display_bits_in_grid">
-<a class="viewcode-back" href="../../connect_4_MCTS.html#connect_4_MCTS.bitboard.display_bits_in_grid">[docs]</a>
+<a class="viewcode-back" href="../../connect4_MCTS.html#connect4_MCTS.bitboard.display_bits_in_grid">[docs]</a>
 <span class="k">def</span> <span class="nf">display_bits_in_grid</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Display a binary representation of a number as a 7x7 grid.</span>

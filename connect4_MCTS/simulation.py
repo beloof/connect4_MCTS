@@ -1,5 +1,5 @@
-from connect_4_MCTS.bitboard import Bitboard, display_bits_in_grid
-from connect_4_MCTS.MCTS_bitboard import MCTS, Node
+from connect4_MCTS.bitboard import Bitboard, display_bits_in_grid
+from connect4_MCTS.MCTS_bitboard import MCTS, Node
 import pygame
 import numpy as np
 from concurrent.futures import ProcessPoolExecutor
