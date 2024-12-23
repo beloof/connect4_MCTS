@@ -238,7 +238,7 @@
 
 <span class="sd">    Notes:</span>
 <span class="sd">    ------</span>
-<span class="sd">    - Simulates 10 matches between each pair of players in the list.</span>
+<span class="sd">    - Simulates 10 matches between each ordered pair of players in the list, meaning each player gets to be player1 and player2 against every other player.</span>
 <span class="sd">    - Aggregates the results as:</span>
 <span class="sd">        - `wins_player1[i, j]`: Number of wins for player1 when matched against player2.</span>
 <span class="sd">        - `wins_player2[i, j]`: Number of wins for player2 when matched against player1.</span>
@@ -275,6 +275,8 @@
     <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s1">&#39;wins_player2.txt&#39;</span><span class="p">,</span> <span class="n">wins_player2</span><span class="p">)</span>
     <span class="n">np</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;draws.npy&#39;</span><span class="p">,</span> <span class="n">draws</span><span class="p">)</span>
     <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s1">&#39;draws.txt&#39;</span><span class="p">,</span> <span class="n">draws</span><span class="p">)</span></div>
+
+
 
 </pre></div>
 

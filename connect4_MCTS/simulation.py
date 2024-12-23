@@ -156,7 +156,7 @@ def tournament(players):
 
     Notes:
     ------
-    - Simulates 10 matches between each pair of players in the list.
+    - Simulates 10 matches between each ordered pair of players in the list, meaning each player gets to be player1 and player2 against every other player.
     - Aggregates the results as:
         - `wins_player1[i, j]`: Number of wins for player1 when matched against player2.
         - `wins_player2[i, j]`: Number of wins for player2 when matched against player1.
@@ -193,3 +193,5 @@ def tournament(players):
     np.savetxt('wins_player2.txt', wins_player2)
     np.save('draws.npy', draws)
     np.savetxt('draws.txt', draws)
+
+

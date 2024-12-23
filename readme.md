@@ -78,7 +78,7 @@ show_match(MCTS(),MCTS())
 │   ├── __init__.py          
 │   ├── bitboard.py          # Bitboard implementation for Connect4
 │   ├── simulation.py        # basic funstions to show/play matches
-│   ├── MCTS_bitboard.py     # MCTS algorithm implementation
+│   └── RCTS_bitboard.py     # MCTS algorithm implementation
 ├── docs/                    # html documentation
 ├── main.py                  # Main script for running matches and tournaments
 ├── setup.py                 # Python setup file
@@ -90,8 +90,20 @@ show_match(MCTS(),MCTS())
 ## How It Works
 
 ### Bitboard Representation
-The game board is represented as a 7x6 grid encoded into a 64-bit integer for each player. Binary operations are used to calculate valid moves, check for wins, and update game states efficiently.
+The game board is represented as a 7x6 grid encoded into a 49-bit integer for each player. Binary operations are used to calculate valid moves, check for wins, and update game states efficiently.
 
+The positions on the board are as follows:
+```
+.  .  .  .  .  .  .
+5 12 19 26 33 40 47
+4 11 18 25 32 39 46
+3 10 17 24 31 38 45
+2  9 16 23 30 37 44
+1  8 15 22 29 36 43
+0  7 14 21 28 35 42 
+```
+
+check [this](http://blog.gamesolver.org/solving-connect-four/06-bitboard/) for more detail
 ### Monte Carlo Tree Search (MCTS)
 The MCTS algorithm uses the following steps to determine the best move:
 1. **Selection**: Traverses the game tree using a selection strategy (e.g., UCT).
@@ -117,7 +129,7 @@ pip install .
 ---
 ## Documentation
 
- Full documentation [here](https://github.com/beloof/connect4_MCTS/blob/main/documentation/build/html/)
+Full documentation [here](https://github.com/beloof/connect4_MCTS/tree/master/docs/build/html)
  
 ---
 
