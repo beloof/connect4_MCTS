@@ -127,7 +127,7 @@ def play_single_match(player1, player2):
 
 
 
-def tournement(players):
+def tournament(players):
     """
     Runs a tournament between multiple players, simulating 10 matches in parallel, and saves the results.
 
