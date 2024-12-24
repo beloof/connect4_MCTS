@@ -41,7 +41,7 @@ show_match(MCTS(), MCTS())
 ### Tournament Simulation
 To run a tournament among multiple AI configurations:
 ```
-from simulation import tournament
+from connect4_MCTS import tournament
 
 params_list = [
     {
@@ -64,7 +64,7 @@ tournement(params_list)
 ### Visualizing Matches
 To visualize gameplay between two AI players:
 ```
-from simulation import show_match, MCTS
+from connect4_MCTS import show_match, MCTS
 show_match(MCTS(),MCTS())
 ```
 ![image](/images/Screenshot.png)
@@ -78,7 +78,7 @@ show_match(MCTS(),MCTS())
 │   ├── __init__.py          
 │   ├── bitboard.py          # Bitboard implementation for Connect4
 │   ├── simulation.py        # basic funstions to show/play matches
-│   └── RCTS_bitboard.py     # MCTS algorithm implementation
+│   └── MCTS_bitboard.py     # MCTS algorithm implementation
 ├── docs/                    # html documentation
 ├── main.py                  # Main script for running matches and tournaments
 ├── setup.py                 # Python setup file
