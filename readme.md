@@ -77,9 +77,12 @@ show_match(MCTS(),MCTS())
 ├── connect4_MCTS/
 │   ├── __init__.py          
 │   ├── bitboard.py          # Bitboard implementation for Connect4
-│   ├── simulation.py        # basic funstions to show/play matches
+│   ├── simulation.py        # basic functions to show/play matches
 │   └── MCTS_bitboard.py     # MCTS algorithm implementation
 ├── docs/                    # html documentation
+├── images/                  # readme image
+├── results/                 # readme image
+│   └── study.pdf            # final thoughts/results
 ├── main.py                  # Main script for running matches and tournaments
 ├── setup.py                 # Python setup file
 └── README.md                # Documentation
